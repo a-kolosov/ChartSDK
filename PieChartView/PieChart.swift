@@ -18,6 +18,12 @@ public class PieChart: UIView {
         let percentage: Float
         let color: UIColor
         let text: NSAttributedString
+        
+        public init(percentage: Float, color: UIColor, text: NSAttributedString) {
+            self.percentage = percentage
+            self.color = color
+            self.text = text
+        }
     }
     
     public var sectors = [SectorData]() {
