@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PieChartView.xcodeproj">
+      location = "self:ChartSDK.xcodeproj">
    </FileRef>
 </Workspace>
