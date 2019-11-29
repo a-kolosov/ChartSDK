@@ -8,35 +8,35 @@
 
 import UIKit
 
-class PieChart: UIView {
-    enum SectorSeparatorStyle {
+public class PieChart: UIView {
+    public enum SectorSeparatorStyle {
         case line(width: CGFloat, color: UIColor)
         case none
     }
     
-    struct SectorData {
+    public struct SectorData {
         let percentage: Float
         let color: UIColor
         let text: NSAttributedString
     }
     
-    var sectors = [SectorData]() {
+    public var sectors = [SectorData]() {
         didSet {
             prepareSectorsData()
             setNeedsDisplay()
         }
     }
-    var sectorSeparatorStyle: SectorSeparatorStyle = .none
+    public var sectorSeparatorStyle: SectorSeparatorStyle = .none
     // 0 < hugging < 1 inside sector
     // 1 < hugging < infinite outside sector
-    var sectorTextPositionHugging: CGFloat = 1
-    var radius: CGFloat = 0
+    public var sectorTextPositionHugging: CGFloat = 1
+    public var radius: CGFloat = 0
     
     private var sectorPercentages = [CGFloat]()
     private var sectorColors = [UIColor]()
     private var sectorTexts = [NSAttributedString]()
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         let center = CGPoint(x: bounds.width / 2, y: bounds.height / 2)
         
         let sectors = createSectorsPath(center: center, radius: radius, percentages: sectorPercentages)
