@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'ChartSDK_Example' do
   pod 'ChartSDK', :path => '../'
-
-  target 'ChartSDK_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

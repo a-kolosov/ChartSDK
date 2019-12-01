@@ -1,6 +1,0 @@
-framework module ChartSDK {
-  umbrella header "ChartSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
