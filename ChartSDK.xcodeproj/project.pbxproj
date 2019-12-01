@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13814E1F239440DE000AC402 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 13814E1E239440DE000AC402 /* Classes */; };
+		F43F55A92395207100455DF9 /* ChartSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F43F55A72395207100455DF9 /* ChartSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F43F55B3239520AE00455DF9 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F55B1239520AE00455DF9 /* PieChart.swift */; };
+		F43F55B4239520AE00455DF9 /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F55B2239520AE00455DF9 /* MathUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13814E132394407E000AC402 /* ChartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13814E1E239440DE000AC402 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
-		13814E3923944482000AC402 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		F43F55A42395207100455DF9 /* ChartSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43F55A72395207100455DF9 /* ChartSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartSDK.h; sourceTree = "<group>"; };
+		F43F55A82395207100455DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43F55B1239520AE00455DF9 /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		F43F55B2239520AE00455DF9 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13814E102394407E000AC402 /* Frameworks */ = {
+		F43F55A12395207100455DF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,52 +31,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13814E092394407E000AC402 = {
+		F43F559A2395207100455DF9 = {
 			isa = PBXGroup;
 			children = (
-				13814E152394407E000AC402 /* ChartSDK */,
-				13814E142394407E000AC402 /* Products */,
+				F43F55A62395207100455DF9 /* ChartSDK */,
+				F43F55A52395207100455DF9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		13814E142394407E000AC402 /* Products */ = {
+		F43F55A52395207100455DF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13814E132394407E000AC402 /* ChartSDK.framework */,
+				F43F55A42395207100455DF9 /* ChartSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13814E152394407E000AC402 /* ChartSDK */ = {
+		F43F55A62395207100455DF9 /* ChartSDK */ = {
 			isa = PBXGroup;
 			children = (
-				13814E3923944482000AC402 /* Info.plist */,
-				13814E1E239440DE000AC402 /* Classes */,
+				F43F55B02395209700455DF9 /* Classes */,
+				F43F55AF2395208900455DF9 /* Supporting Files */,
 			);
 			path = ChartSDK;
+			sourceTree = "<group>";
+		};
+		F43F55AF2395208900455DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F43F55A72395207100455DF9 /* ChartSDK.h */,
+				F43F55A82395207100455DF9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F43F55B02395209700455DF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F43F55B2239520AE00455DF9 /* MathUtils.swift */,
+				F43F55B1239520AE00455DF9 /* PieChart.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13814E0E2394407E000AC402 /* Headers */ = {
+		F43F559F2395207100455DF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43F55A92395207100455DF9 /* ChartSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		13814E122394407E000AC402 /* ChartSDK */ = {
+		F43F55A32395207100455DF9 /* ChartSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13814E1B2394407E000AC402 /* Build configuration list for PBXNativeTarget "ChartSDK" */;
+			buildConfigurationList = F43F55AC2395207100455DF9 /* Build configuration list for PBXNativeTarget "ChartSDK" */;
 			buildPhases = (
-				13814E0E2394407E000AC402 /* Headers */,
-				13814E0F2394407E000AC402 /* Sources */,
-				13814E102394407E000AC402 /* Frameworks */,
-				13814E112394407E000AC402 /* Resources */,
+				F43F559F2395207100455DF9 /* Headers */,
+				F43F55A02395207100455DF9 /* Sources */,
+				F43F55A12395207100455DF9 /* Frameworks */,
+				F43F55A22395207100455DF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -80,24 +103,25 @@
 			);
 			name = ChartSDK;
 			productName = ChartSDK;
-			productReference = 13814E132394407E000AC402 /* ChartSDK.framework */;
+			productReference = F43F55A42395207100455DF9 /* ChartSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		13814E0A2394407E000AC402 /* Project object */ = {
+		F43F559B2395207100455DF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Anton Kolosov";
 				TargetAttributes = {
-					13814E122394407E000AC402 = {
+					F43F55A32395207100455DF9 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
-			buildConfigurationList = 13814E0D2394407E000AC402 /* Build configuration list for PBXProject "ChartSDK" */;
+			buildConfigurationList = F43F559E2395207100455DF9 /* Build configuration list for PBXProject "ChartSDK" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,39 +129,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 13814E092394407E000AC402;
-			productRefGroup = 13814E142394407E000AC402 /* Products */;
+			mainGroup = F43F559A2395207100455DF9;
+			productRefGroup = F43F55A52395207100455DF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13814E122394407E000AC402 /* ChartSDK */,
+				F43F55A32395207100455DF9 /* ChartSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13814E112394407E000AC402 /* Resources */ = {
+		F43F55A22395207100455DF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13814E1F239440DE000AC402 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13814E0F2394407E000AC402 /* Sources */ = {
+		F43F55A02395207100455DF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43F55B3239520AE00455DF9 /* PieChart.swift in Sources */,
+				F43F55B4239520AE00455DF9 /* MathUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		13814E192394407E000AC402 /* Debug */ = {
+		F43F55AA2395207100455DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +213,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ChartSDK/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -201,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		13814E1A2394407E000AC402 /* Release */ = {
+		F43F55AB2395207100455DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +270,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ChartSDK/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -259,9 +282,10 @@
 			};
 			name = Release;
 		};
-		13814E1C2394407E000AC402 /* Debug */ = {
+		F43F55AD2395207100455DF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -277,14 +301,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ak.ChartSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		13814E1D2394407E000AC402 /* Release */ = {
+		F43F55AE2395207100455DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -308,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13814E0D2394407E000AC402 /* Build configuration list for PBXProject "ChartSDK" */ = {
+		F43F559E2395207100455DF9 /* Build configuration list for PBXProject "ChartSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13814E192394407E000AC402 /* Debug */,
-				13814E1A2394407E000AC402 /* Release */,
+				F43F55AA2395207100455DF9 /* Debug */,
+				F43F55AB2395207100455DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13814E1B2394407E000AC402 /* Build configuration list for PBXNativeTarget "ChartSDK" */ = {
+		F43F55AC2395207100455DF9 /* Build configuration list for PBXNativeTarget "ChartSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13814E1C2394407E000AC402 /* Debug */,
-				13814E1D2394407E000AC402 /* Release */,
+				F43F55AD2395207100455DF9 /* Debug */,
+				F43F55AE2395207100455DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 13814E0A2394407E000AC402 /* Project object */;
+	rootObject = F43F559B2395207100455DF9 /* Project object */;
 }

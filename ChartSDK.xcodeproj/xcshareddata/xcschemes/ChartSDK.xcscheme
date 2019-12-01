@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13814E122394407E000AC402"
+               BlueprintIdentifier = "F43F55A32395207100455DF9"
                BuildableName = "ChartSDK.framework"
                BlueprintName = "ChartSDK"
                ReferencedContainer = "container:ChartSDK.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13814E122394407E000AC402"
+            BlueprintIdentifier = "F43F55A32395207100455DF9"
             BuildableName = "ChartSDK.framework"
             BlueprintName = "ChartSDK"
             ReferencedContainer = "container:ChartSDK.xcodeproj">
