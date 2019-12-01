@@ -1,6 +1,5 @@
-# ChartSDK
+# ChartSDK (In progress)
 
-[![CI Status](https://img.shields.io/travis/Anton Kolosov/ChartSDK.svg?style=flat)](https://travis-ci.org/Anton Kolosov/ChartSDK)
 [![Version](https://img.shields.io/cocoapods/v/ChartSDK.svg?style=flat)](https://cocoapods.org/pods/ChartSDK)
 [![License](https://img.shields.io/cocoapods/l/ChartSDK.svg?style=flat)](https://cocoapods.org/pods/ChartSDK)
 [![Platform](https://img.shields.io/cocoapods/p/ChartSDK.svg?style=flat)](https://cocoapods.org/pods/ChartSDK)
