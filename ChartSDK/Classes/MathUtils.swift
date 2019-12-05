@@ -6,7 +6,7 @@
 //  Copyright © 2019 Anton Kolosov. All rights reserved.
 //
 
-import Foundation
+#if canImport(UIKit)
 import CoreGraphics
 
 class MathUtils {
@@ -55,3 +55,5 @@ class MathUtils {
         }
     }
 }
+
+#endif

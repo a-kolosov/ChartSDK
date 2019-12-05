@@ -5,7 +5,7 @@
 //  Created by Anton Kolosov on 10/15/19.
 //  Copyright © 2019 Anton Kolosov. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public class PieChart: UIView {
@@ -162,3 +162,5 @@ public class PieChart: UIView {
         return rect
     }
 }
+
+#endif
